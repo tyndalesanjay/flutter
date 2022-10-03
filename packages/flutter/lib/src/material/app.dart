@@ -144,11 +144,11 @@ enum ThemeMode {
 /// ![The MaterialApp displays a Scaffold with a dark background and a blue / grey AppBar at the top](https://flutter.github.io/assets-for-api-docs/assets/material/theme_material_app.png)
 ///
 /// ```dart
-/// MaterialApp(
-///   theme: ThemeData(
-///     brightness: Brightness.dark,
-///     primaryColor: Colors.blueGrey
-///   ),
+// / MaterialApp(
+// /   theme: ThemeData(
+// /     brightness: Brightness.dark,
+// /     primaryColor: Colors.blueGrey
+// /   ),
 ///   home: Scaffold(
 ///     appBar: AppBar(
 ///       title: const Text('MaterialApp Theme'),
